@@ -63,6 +63,8 @@ function FeaturedRow({ item, index }) {
         <img
           src={item.image}
           alt={item.title}
+          loading="lazy"
+          decoding="async"
           style={{ width: '100%', height: 'auto', display: 'block', transition: 'transform 0.5s ease' }}
           className="featured-img"
         />

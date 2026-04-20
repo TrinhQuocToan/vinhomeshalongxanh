@@ -117,6 +117,8 @@ export default function PhanKhuDetail() {
           <img 
             src={data.image} 
             alt={data.name} 
+            loading="lazy"
+            decoding="async"
             style={{ width: '100%', height: 'auto', maxHeight: '750px', objectFit: 'cover', display: 'block' }} 
           />
         </motion.div>

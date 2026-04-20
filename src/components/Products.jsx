@@ -203,7 +203,9 @@ export default function Products() {
             </div>
             <img 
               src="/phankhu.jpg" 
-              alt="Bản đồ các phân khu và tiểu khu Vinhomes Hạ Long" 
+              alt="Bản đồ các phân khu và tiểu khu Vinhomes Hạ Long"
+              loading="lazy"
+              decoding="async"
               style={{ width: '100%', height: 'auto', display: 'block', minHeight: '300px', objectFit: 'cover' }}
             />
           </motion.div>
